@@ -1,0 +1,11 @@
+student_id,student_name,gender,household_income,first_gen,avg_grade,total_credits,pass_rate,failed_courses,attendance_count,attendance_rate,events_attended,total_participation,grade_trend
+1000,Student_Rajasthan_0,M,102386,1,5.73,31,0.59,4,47,0.54,0,1,-0.38
+1001,Student_Rajasthan_1,F,148214,0,6.22,20,0.53,2,55,0.6,4,8,0.36
+1002,Student_Rajasthan_2,M,57194,1,7.1,29,0.97,0,41,0.52,4,3,0.12
+1003,Student_Rajasthan_3,M,107498,1,6.73,24,0.98,3,31,0.66,0,3,-0.17
+1004,Student_Rajasthan_4,M,132727,1,6.16,21,0.9,1,39,0.69,0,1,-0.44
+1005,Student_Rajasthan_5,F,146324,1,7.45,26,0.65,3,59,0.64,0,11,-0.19
+1006,Student_Rajasthan_6,M,64131,1,5.56,20,0.55,1,33,0.91,0,5,-0.17
+1007,Student_Rajasthan_7,M,80263,1,6.17,22,0.84,1,43,0.68,3,10,0.23
+1008,Student_Rajasthan_8,M,36023,1,6.47,20,0.72,3,45,0.64,2,7,0.14
+1009,Student_Rajasthan_9,F,61090,1,6.82,24,0.56,4,44,0.77,2,10,0.39

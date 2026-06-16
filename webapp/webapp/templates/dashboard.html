@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard | Dropout Prediction</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+  <style>
+    body {
+      background: #f5f6fa;
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .card {
+      background: white;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 4px 25px rgba(0,0,0,0.1);
+      text-align: center;
+      width: 420px;
+    }
+    h1 {
+      color: #222;
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+    h3 {
+      color: #007bff;
+      font-size: 16px;
+      margin-top: -5px;
+      margin-bottom: 20px;
+      font-weight: 500;
+    }
+    input[type=file] {
+      margin-top: 10px;
+      padding: 8px;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 18px;
+      background-color: #007bff;
+      border: none;
+      color: white;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #0062cc;
+    }
+    a.logout {
+      display: block;
+      margin-top: 20px;
+      color: #e63946;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+
+    <!-- TEACHER WELCOME SECTION -->
+    <h1>Welcome, {{ teacher }} 👋</h1>
+    <h3>State: {{ session['state'] }}</h3>
+
+    <!-- CSV UPLOAD SECTION -->
+    <p>Upload student data (CSV):</p>
+    <form action="/predict" method="post" enctype="multipart/form-data">
+      <input type="file" name="file" accept=".csv" required />
+      <br>
+      <button type="submit">Predict Dropouts</button>
+    </form>
+
+    <!-- LOGOUT -->
+    <a href="/logout" class="logout">Logout</a>
+
+  </div>
+</body>
+</html>

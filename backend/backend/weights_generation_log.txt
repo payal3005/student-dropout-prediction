@@ -1,0 +1,5 @@
+State weights generated successfully.
+Inputs used:
+- udise_dropout.csv
+- gsdp_percapita.csv
+- census_literacy_rural.csv

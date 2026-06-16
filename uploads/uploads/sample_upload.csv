@@ -1,0 +1,11 @@
+student_id,student_name,gender,household_income,first_gen,avg_grade,total_credits,pass_rate,failed_courses,attendance_count,attendance_rate,events_attended,total_participation,grade_trend
+101,Asha,F,45000,1,6.8,24,0.75,2,45,0.75,4,10,-0.2
+102,Ravi,M,120000,0,7.5,28,1.0,0,58,0.96,1,3,0.1
+103,Megha,F,180000,0,8.2,30,1.0,0,59,0.98,3,8,0.3
+104,Suresh,M,68000,1,5.2,20,0.6,3,40,0.68,2,5,-0.4
+105,Divya,F,30000,1,7.9,29,1.0,0,57,0.95,1,6,0.15
+106,Karthik,M,90000,0,6.5,23,0.7,1,42,0.7,3,9,-0.1
+107,Pooja,F,25000,1,5.9,18,0.55,4,35,0.6,2,4,-0.3
+108,Arun,M,110000,0,7.8,27,0.95,0,56,0.92,1,7,0.2
+109,Neha,F,85000,0,6.2,22,0.65,1,41,0.72,2,6,-0.05
+110,Manoj,M,40000,1,5.5,19,0.58,3,38,0.65,1,5,-0.25
